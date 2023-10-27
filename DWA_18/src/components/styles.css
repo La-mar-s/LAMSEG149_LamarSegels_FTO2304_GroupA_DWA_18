@@ -26,7 +26,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 20px;
-  max-width: 65rem;
+  max-width: 90%;
   padding: 20px;
   overflow: auto; /* Enable horizontal scrolling if needed */
   white-space: nowrap; /* Prevent text from wrapping */
@@ -41,11 +41,11 @@ body {
   border: 0.5rem solid #000000; /* Add a border around the show boxes */
   border-radius: 5px;
   padding: 10px;
-  background-color: white;
+  background: linear-gradient(45.11deg, rgb(255, 255, 255) 10%, rgb(0, 0, 0) 100%) ;
 }
 
 .favorite-list {
-    background-color: #ffffff;
+  background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 20px;
@@ -54,6 +54,16 @@ body {
   overflow: auto; /* Enable horizontal scrolling if needed */
   white-space: nowrap; /* Prevent text from wrapping */
   background: linear-gradient(45.11deg, rgb(199, 30, 30) 10%, rgb(0, 0, 0) 100% ) ;
+}
+
+.favourite-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  border: 0.5rem solid #000000; /* Add a border around the show boxes */
+  border-radius: 5px;
+  padding: 10px;
+  background: linear-gradient(45.11deg, rgb(255, 255, 255) 10%, rgb(0, 0, 0) 100%) ;
 }
 
 /* Show and episode actions */

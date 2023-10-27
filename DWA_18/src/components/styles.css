@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Overall page layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: red;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Podcast list container */
+.podcast-list {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  max-width: 65rem;
+  padding: 20px;
+  overflow: auto; /* Enable horizontal scrolling if needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+  background: linear-gradient(45.11deg, rgb(199, 30, 30) 10%, rgb(0, 0, 0) 100% ) ;
+}
+
+/* Podcast list items */
+.podcast-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  border: 0.5rem solid #000000; /* Add a border around the show boxes */
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.favorite-list {
+    background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  max-width: 65rem;
+  padding: 20px;
+  overflow: auto; /* Enable horizontal scrolling if needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+  background: linear-gradient(45.11deg, rgb(199, 30, 30) 10%, rgb(0, 0, 0) 100% ) ;
+}
+
+/* Show and episode actions */
+.actions {
+  margin-top: 10px;
+}
+
+.favorite-button {
+  background-color: #f13b3b;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.favorite-button:hover {
+  background-color: #c6adab;
+}
+
+/* Audio player styles */
+.audio-player {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Favorites view */
+.favorites-view {
+  margin-top: 20px;
+}
+
+.search {
+  display: inline-block;
+  
+}
+
+.search-input {
+  display: flex;
+  background-color:black;
+  color: #ffffff;
+}
+
+.genre-select {
+  display: flex;
+  background-color:rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.sort-select {
+  position: relative;
+  background-color:rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.filters-- {
+  display: inline-flex;
+  position: relative;
+  grid-template: 40px 40px 40px / 1fr 1fr 1fr;
+  gap: 55px;
+}
